@@ -1,0 +1,29 @@
+<!DOCTYPE xml>
+<?xml-stylesheet href='index.css'?>
+<students>
+	<student>
+		<student-name>Person 1</student-name>
+		<student-usn>1PE15CS000</student-usn>
+		<student-college>PESU</student-college>
+		<student-batch>2019</student-batch>
+		<student-joining>2015</student-joining>
+		<student-email>person1@gmail.com</student-email>
+	</student>
+	<student>
+		<student-name>Person 2</student-name>
+		<student-usn>1PE15CS003</student-usn>
+		<student-college>PESU</student-college>
+		<student-batch>2019</student-batch>
+		<student-joining>2015</student-joining>
+		<student-email>person2@gmail.com</student-email>
+	</student>
+	<student>
+		<student-name>Person 3</student-name>
+		<student-usn>1PE15CS003</student-usn>
+		<student-college>PESU</student-college>
+		<student-batch>2019</student-batch>
+		<student-joining>2015</student-joining>
+		<student-email>person3@gmail.com</student-email>
+	</student>
+</students>
+

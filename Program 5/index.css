@@ -1,0 +1,15 @@
+student *{
+	font:sans-serif;
+	display:block;
+}
+student{
+	border:solid 1px black;
+	display:block;
+	margin-bottom:10px;
+	background-color:Green;
+}
+students{
+	margin-left:33.33%;
+	margin-top:20px;
+	width:33.33%;
+}

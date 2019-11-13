@@ -1,0 +1,36 @@
+<body onload="start();">
+<script>
+	var c=0,t1;
+	function start()
+	{
+		t1=window.setInterval("incr()",100);
+	}
+	function incr()
+	{
+		c=c+1;
+		tab.innerHTML="TEXT-GROWING"+c+"pt";
+		tab.style.fontSize=c+"pt"
+		if(c>50)
+		{
+			alert("Font-size is now 50pt");
+			window.clearInterval(t1);
+			t1=window.setInterval("decr()",100);
+		}
+		tab.style.color="red";
+	}
+	function decr()
+	{
+		c=c-1;
+		tab.innerHTML="TEXT-SHRINKING"+c+"pt";
+		tab.style.fontSize=c+"pt"
+		if(c==5)
+		{
+			window.clearInterval(t1);
+			t1=window.setInterval("incr()",100);
+		}
+		tab.style.color="blue";
+		
+	}
+</script>
+<p id="tab"></p>
+</body>
